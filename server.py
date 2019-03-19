@@ -11,4 +11,3 @@ while True:
                 break
         c.send(data.upper())
 c.close()
-                
