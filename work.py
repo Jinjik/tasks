@@ -11,7 +11,7 @@ sshkey = '/home/pi/Documents/sshkey1'
 dirpath = '/home/pi/Documents/' #path to dir
 serverpath = '/root/logic/history/data/'
 imgname = ''
-url = 'http://192.168.33.186/getUser/'
+url = ''
 
 faceDetect = cv2.CascadeClassifier(haarpath)#path to xmlfile 
 cam = cv2.VideoCapture(0) #turn on camera
@@ -20,7 +20,7 @@ cam = cv2.VideoCapture(0) #turn on camera
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(
     paramiko.AutoAddPolicy())
-ssh.connect('vm-smcoff', username='root', password='smart',key_filename=sshkey)
+ssh.connect('', username='', password='',key_filename=sshkey)
 ftp = ssh.open_sftp()
 
 while (cam.isOpened()):
