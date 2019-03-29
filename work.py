@@ -11,7 +11,7 @@ sshkey = '/home/pi/Documents/sshkey1'
 dirpath = '/home/pi/Documents/' #path to dir
 serverpath = '/root/logic/history/data/'
 imgname = ''
-url = 'http://192.168.33.186/getUser/'
+url = 'http://www.hostname.org/getUser/'
 
 faceDetect = cv2.CascadeClassifier(haarpath)
 cam = cv2.VideoCapture(0) #turning on camera
