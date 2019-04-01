@@ -20,7 +20,7 @@ cam = cv2.VideoCapture(0) #turning on camera
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(
     paramiko.AutoAddPolicy())
-ssh.connect('vm-smcoff', username='root', password='smart',key_filename=sshkey)
+ssh.connect('', username='', password='',key_filename=sshkey)
 ftp = ssh.open_sftp()
 
 while (True):
