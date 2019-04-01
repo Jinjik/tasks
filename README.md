@@ -28,5 +28,5 @@
 
 Авторы
 =====
-* Ануар Нурмат
-* Красников Евгений(krasnikovevgen16@gmail.com)
+* Ануар Нурмат (Nnnurrrma@gmail.com)
+* Красников Евгений (krasnikovevgen16@gmail.com)
