@@ -23,4 +23,5 @@
  2 Paramiko
  3 Requests
  Также скачиваем haarcascade_frontalface_default.xml и п программе прописываем полный путь до файла.
+ 
  Скачать haarcascade_frontalface_default.xml можно здесь -> https://github.com/opencv/opencv/tree/master/data/haarcascades
