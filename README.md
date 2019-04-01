@@ -1,4 +1,4 @@
-﻿Программа разрабатывалась для проекта SMART COFFEE MACHINE.
+﻿Программа разрабатывалась для проекта **SMART COFFEE MACHINE**.
 
 
 Цель проекта
@@ -13,7 +13,8 @@
 * SD-карта
 * Операционная система Raspbian
 * Веб-камера
-* Python с установленными дополнительными библиотеками
+* Python3  с установленными дополнительными библиотеками
+* Каскад Хаара - haarcascade_frontalface_default.xml
 
 Инструкция
 ----
@@ -22,6 +23,5 @@
  1 OpenCV
  2 Paramiko
  3 Requests
- Также скачиваем haarcascade_frontalface_default.xml и п программе прописываем полный путь до файла.
  
- Скачать haarcascade_frontalface_default.xml можно здесь -> https://github.com/opencv/opencv/tree/master/data/haarcascades
+ Скачать haarcascade_frontalface_default.xml можно здесь -> [ссылка на репозиторий](https://github.com/opencv/opencv/tree/master/data/haarcascades)
