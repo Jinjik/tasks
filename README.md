@@ -21,11 +21,11 @@
  На SD-карту устанавливается операционная система Raspbian. Затем к Raspberry Pi подключается Веб-камера и по необходимости устанавливается ПО для веб-камеры. Установить Python, если он отсутствует.
  К Python устанавливаем дополнительные библиотеки: 
  
- 1 OpenCV
+ 1. OpenCV
  
- 2 Paramiko
+ 2. Paramiko
  
- 3 Requests
+ 3. Requests
  
  Скачать haarcascade_frontalface_default.xml можно здесь -> [ссылка на репозиторий](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
